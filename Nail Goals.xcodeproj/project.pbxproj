@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09169BAE1B1FD46D000A8F43 /* MainDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09169BAD1B1FD46D000A8F43 /* MainDashboardViewController.swift */; };
+		09169BB01B214AE4000A8F43 /* PicturesOfYourProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09169BAF1B214AE4000A8F43 /* PicturesOfYourProgressViewController.swift */; };
+		09169BB21B214C53000A8F43 /* PicturesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09169BB11B214C53000A8F43 /* PicturesCollectionViewCell.swift */; };
+		09169BB41B214FC2000A8F43 /* BiteTrackerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09169BB31B214FC2000A8F43 /* BiteTrackerCollectionViewCell.swift */; };
+		09169BB61B214FE0000A8F43 /* BiteTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09169BB51B214FE0000A8F43 /* BiteTrackerViewController.swift */; };
+		094159931AEC693E00075A16 /* forgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094159921AEC693E00075A16 /* forgotPasswordViewController.swift */; };
+		096909C21AF80D4800B5814F /* WlakthroughRemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096909C11AF80D4800B5814F /* WlakthroughRemindersViewController.swift */; };
+		0969CAC81B0375B800F64669 /* WalkthroughSetYourGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969CAC71B0375B800F64669 /* WalkthroughSetYourGoalsViewController.swift */; };
+		0969CAD01B037A3900F64669 /* calendarDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969CACF1B037A3900F64669 /* calendarDateCollectionViewCell.swift */; };
+		097AA88D1B10F52E00D09BFF /* SetYourGoalsScreen4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097AA88C1B10F52E00D09BFF /* SetYourGoalsScreen4ViewController.swift */; };
+		0985B7301B037B69008DE852 /* calendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985B72F1B037B69008DE852 /* calendarHelper.swift */; };
+		0994ACD71B07ECEC00703BA0 /* dashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994ACD61B07ECEC00703BA0 /* dashboardViewController.swift */; };
+		0999DD721AE2F9FA00B32391 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0999DD711AE2F9FA00B32391 /* SignUpViewController.swift */; };
+		0999DD741AE2FA9400B32391 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0999DD731AE2FA9400B32391 /* loginViewController.swift */; };
+		09C92D331B0D5FB600258CD2 /* SetyourGoalsScren1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C92D321B0D5FB600258CD2 /* SetyourGoalsScren1ViewController.swift */; };
+		09C92D351B0D5FC000258CD2 /* SetyourGoalsScren2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C92D341B0D5FC000258CD2 /* SetyourGoalsScren2ViewController.swift */; };
+		09C92D371B0D5FCB00258CD2 /* SetyourGoalsScren3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C92D361B0D5FCB00258CD2 /* SetyourGoalsScren3ViewController.swift */; };
+		09C92D391B0D624C00258CD2 /* calendarDateCollectionViewCell1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C92D381B0D624C00258CD2 /* calendarDateCollectionViewCell1CollectionViewCell.swift */; };
+		09C92D3B1B0D633300258CD2 /* CalendarHeader1CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C92D3A1B0D633300258CD2 /* CalendarHeader1CollectionReusableView.swift */; };
+		09C92D3D1B0D75AF00258CD2 /* CalendarHeader2CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C92D3C1B0D75AF00258CD2 /* CalendarHeader2CollectionReusableView.swift */; };
+		09C92D3F1B0D75DA00258CD2 /* calendarDateCollection2ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C92D3E1B0D75DA00258CD2 /* calendarDateCollection2ViewCell.swift */; };
+		09CB7B461AD9A91000A32601 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B431AD9A91000A32601 /* Bolts.framework */; };
+		09CB7B471AD9A91000A32601 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B441AD9A91000A32601 /* Parse.framework */; };
+		09CB7B481AD9A91000A32601 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B451AD9A91000A32601 /* ParseFacebookUtils.framework */; };
+		09CB7B4A1AD9A92800A32601 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B491AD9A92800A32601 /* FacebookSDK.framework */; };
+		09CB7B4C1AD9A96000A32601 /* faceBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CB7B4B1AD9A96000A32601 /* faceBookViewController.swift */; };
+		09CB7B4E1AD9A9CB00A32601 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B4D1AD9A9CB00A32601 /* AudioToolbox.framework */; };
+		09CB7B501AD9A9D800A32601 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B4F1AD9A9D800A32601 /* CFNetwork.framework */; };
+		09CB7B521AD9A9E200A32601 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B511AD9A9E200A32601 /* CoreGraphics.framework */; };
+		09CB7B541AD9A9EB00A32601 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B531AD9A9EB00A32601 /* CoreLocation.framework */; };
+		09CB7B561AD9A9F500A32601 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B551AD9A9F500A32601 /* libz.dylib */; };
+		09CB7B581AD9A9FE00A32601 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B571AD9A9FE00A32601 /* QuartzCore.framework */; };
+		09CB7B5A1AD9AA0700A32601 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B591AD9AA0700A32601 /* Security.framework */; };
+		09CB7B5E1AD9AA1B00A32601 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B5D1AD9AA1B00A32601 /* SystemConfiguration.framework */; };
+		09CB7B601AD9AA2800A32601 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B5F1AD9AA2800A32601 /* libsqlite3.dylib */; };
+		09CB7B621AD9AA2F00A32601 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB7B611AD9AA2F00A32601 /* MobileCoreServices.framework */; };
+		09CB7B651AD9AA8500A32601 /* bridging-header.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CB7B641AD9AA8500A32601 /* bridging-header.m */; };
+		09CB7B691AD9AD4F00A32601 /* tourViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CB7B681AD9AD4F00A32601 /* tourViewControllerHelper.swift */; };
+		09D42DFC1AF1C4B40048CFAA /* WelcomeWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D42DFB1AF1C4B40048CFAA /* WelcomeWalkthroughViewController.swift */; };
+		09D42DFE1AF5D65A0048CFAA /* setYourRemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D42DFD1AF5D65A0048CFAA /* setYourRemindersViewController.swift */; };
+		09D42E001AF5D75F0048CFAA /* RemindersScreenHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D42DFF1AF5D75F0048CFAA /* RemindersScreenHeaderTableViewCell.swift */; };
+		09D42E021AF5D77C0048CFAA /* RemindersScreenSetRemindersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D42E011AF5D77C0048CFAA /* RemindersScreenSetRemindersTableViewCell.swift */; };
+		09D42E041AF5D7900048CFAA /* RemindersScreenNextButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D42E031AF5D7900048CFAA /* RemindersScreenNextButtonTableViewCell.swift */; };
+		09D4AF891B16AA480031A533 /* PastGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AF881B16AA480031A533 /* PastGoalsViewController.swift */; };
+		09D4AF8B1B16AA620031A533 /* pastGoalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AF8A1B16AA620031A533 /* pastGoalsTableViewCell.swift */; };
+		09D4AF8D1B16B2590031A533 /* AcheivedGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AF8C1B16B2590031A533 /* AcheivedGoalViewController.swift */; };
+		09D4AF8F1B16B26D0031A533 /* AcheivedGoalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AF8E1B16B26D0031A533 /* AcheivedGoalCollectionViewCell.swift */; };
+		09D4AF911B16B3210031A533 /* AcheivedGoal2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AF901B16B3210031A533 /* AcheivedGoal2CollectionViewCell.swift */; };
+		09D4AF931B16B32E0031A533 /* AcheivedGoal3CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AF921B16B32E0031A533 /* AcheivedGoal3CollectionViewCell.swift */; };
+		09D4AF951B16B45B0031A533 /* AcheivedGoal4CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AF941B16B45B0031A533 /* AcheivedGoal4CollectionViewCell.swift */; };
+		09D4AF971B16B46A0031A533 /* AcheivedGoal5CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AF961B16B46A0031A533 /* AcheivedGoal5CollectionViewCell.swift */; };
+		09D4AF991B16B4780031A533 /* AcheivedGoal6CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AF981B16B4780031A533 /* AcheivedGoal6CollectionViewCell.swift */; };
+		09D4AF9B1B1BA0400031A533 /* YourNailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4AF9A1B1BA0400031A533 /* YourNailViewController.swift */; };
+		09D6C3B61B065CE000032F58 /* CalendarHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D6C3B51B065CE000032F58 /* CalendarHeaderCollectionReusableView.swift */; };
+		09DFA8891B236518008EA60E /* UpcomingGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFA8881B236518008EA60E /* UpcomingGoalsViewController.swift */; };
+		09DFA88B1B237613008EA60E /* NoUpcomingGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFA88A1B237612008EA60E /* NoUpcomingGoalsViewController.swift */; };
+		09DFA88D1B237C58008EA60E /* YourGoalsNoActiveOrUpcomingGaolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFA88C1B237C58008EA60E /* YourGoalsNoActiveOrUpcomingGaolViewController.swift */; };
+		09DFA88F1B23D3A4008EA60E /* PastGaolsOverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFA88E1B23D3A4008EA60E /* PastGaolsOverViewViewController.swift */; };
+		09DFA8911B2487A6008EA60E /* PicturesCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFA8901B2487A6008EA60E /* PicturesCompareViewController.swift */; };
+		09DFA8931B2487C7008EA60E /* PicturesCompareCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFA8921B2487C7008EA60E /* PicturesCompareCollectionViewCell.swift */; };
+		E95BC32D1B24E49B002F5304 /* Your Progress Screen Set .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95BC32C1B24E49B002F5304 /* Your Progress Screen Set .storyboard */; };
+		E97A97951ACA0F9A00C9B0F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A97941ACA0F9A00C9B0F8 /* AppDelegate.swift */; };
+		E97A97971ACA0F9A00C9B0F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A97961ACA0F9A00C9B0F8 /* ViewController.swift */; };
+		E97A979A1ACA0F9A00C9B0F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97A97981ACA0F9A00C9B0F8 /* Main.storyboard */; };
+		E97A979C1ACA0F9A00C9B0F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97A979B1ACA0F9A00C9B0F8 /* Images.xcassets */; };
+		E97A97AB1ACA0F9B00C9B0F8 /* Nail_GoalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A97AA1ACA0F9B00C9B0F8 /* Nail_GoalsTests.swift */; };
+		E9D83ACA1B1544D8002C9264 /* Your Nail Goals - Post Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D83AC91B1544D8002C9264 /* Your Nail Goals - Post Dashboard.storyboard */; };
+		E9E19CDA1B0D743C0097AF21 /* Privacy Policy:Terms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E19CD91B0D743C0097AF21 /* Privacy Policy:Terms.storyboard */; };
+		E9FF3C8B1B1E671700B28E29 /* Dashboards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FF3C8A1B1E671700B28E29 /* Dashboards.storyboard */; };
+		F9D8C1C21B0AB2EF006E91B1 /* Walkthrough Set First Goal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D8C1C11B0AB2EF006E91B1 /* Walkthrough Set First Goal.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E97A97A51ACA0F9B00C9B0F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E97A97871ACA0F9A00C9B0F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97A978E1ACA0F9A00C9B0F8;
+			remoteInfo = "Nail Goals";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09169BAD1B1FD46D000A8F43 /* MainDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDashboardViewController.swift; sourceTree = "<group>"; };
+		09169BAF1B214AE4000A8F43 /* PicturesOfYourProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesOfYourProgressViewController.swift; sourceTree = "<group>"; };
+		09169BB11B214C53000A8F43 /* PicturesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesCollectionViewCell.swift; sourceTree = "<group>"; };
+		09169BB31B214FC2000A8F43 /* BiteTrackerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiteTrackerCollectionViewCell.swift; sourceTree = "<group>"; };
+		09169BB51B214FE0000A8F43 /* BiteTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiteTrackerViewController.swift; sourceTree = "<group>"; };
+		094159921AEC693E00075A16 /* forgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forgotPasswordViewController.swift; sourceTree = "<group>"; };
+		096909C11AF80D4800B5814F /* WlakthroughRemindersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WlakthroughRemindersViewController.swift; sourceTree = "<group>"; };
+		0969CAC71B0375B800F64669 /* WalkthroughSetYourGoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughSetYourGoalsViewController.swift; sourceTree = "<group>"; };
+		0969CACF1B037A3900F64669 /* calendarDateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = calendarDateCollectionViewCell.swift; path = ../calendarDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		097AA88C1B10F52E00D09BFF /* SetYourGoalsScreen4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetYourGoalsScreen4ViewController.swift; sourceTree = "<group>"; };
+		0985B72F1B037B69008DE852 /* calendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendarHelper.swift; sourceTree = "<group>"; };
+		0994ACD61B07ECEC00703BA0 /* dashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dashboardViewController.swift; sourceTree = "<group>"; };
+		0999DD711AE2F9FA00B32391 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0999DD731AE2FA9400B32391 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		09C92D321B0D5FB600258CD2 /* SetyourGoalsScren1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetyourGoalsScren1ViewController.swift; path = ../SetyourGoalsScren1ViewController.swift; sourceTree = "<group>"; };
+		09C92D341B0D5FC000258CD2 /* SetyourGoalsScren2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetyourGoalsScren2ViewController.swift; path = ../SetyourGoalsScren2ViewController.swift; sourceTree = "<group>"; };
+		09C92D361B0D5FCB00258CD2 /* SetyourGoalsScren3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetyourGoalsScren3ViewController.swift; path = ../SetyourGoalsScren3ViewController.swift; sourceTree = "<group>"; };
+		09C92D381B0D624C00258CD2 /* calendarDateCollectionViewCell1CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendarDateCollectionViewCell1CollectionViewCell.swift; sourceTree = "<group>"; };
+		09C92D3A1B0D633300258CD2 /* CalendarHeader1CollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHeader1CollectionReusableView.swift; sourceTree = "<group>"; };
+		09C92D3C1B0D75AF00258CD2 /* CalendarHeader2CollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHeader2CollectionReusableView.swift; sourceTree = "<group>"; };
+		09C92D3E1B0D75DA00258CD2 /* calendarDateCollection2ViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendarDateCollection2ViewCell.swift; sourceTree = "<group>"; };
+		09CB7B431AD9A91000A32601 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		09CB7B441AD9A91000A32601 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		09CB7B451AD9A91000A32601 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		09CB7B491AD9A92800A32601 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		09CB7B4B1AD9A96000A32601 /* faceBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = faceBookViewController.swift; sourceTree = "<group>"; };
+		09CB7B4D1AD9A9CB00A32601 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		09CB7B4F1AD9A9D800A32601 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		09CB7B511AD9A9E200A32601 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09CB7B531AD9A9EB00A32601 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		09CB7B551AD9A9F500A32601 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		09CB7B571AD9A9FE00A32601 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		09CB7B591AD9AA0700A32601 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		09CB7B5D1AD9AA1B00A32601 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		09CB7B5F1AD9AA2800A32601 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		09CB7B611AD9AA2F00A32601 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		09CB7B631AD9AA8400A32601 /* Nail Goals-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nail Goals-Bridging-Header.h"; sourceTree = "<group>"; };
+		09CB7B641AD9AA8500A32601 /* bridging-header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "bridging-header.m"; sourceTree = "<group>"; };
+		09CB7B681AD9AD4F00A32601 /* tourViewControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tourViewControllerHelper.swift; path = ../tourViewControllerHelper.swift; sourceTree = "<group>"; };
+		09D42DFB1AF1C4B40048CFAA /* WelcomeWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeWalkthroughViewController.swift; sourceTree = "<group>"; };
+		09D42DFD1AF5D65A0048CFAA /* setYourRemindersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setYourRemindersViewController.swift; sourceTree = "<group>"; };
+		09D42DFF1AF5D75F0048CFAA /* RemindersScreenHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersScreenHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		09D42E011AF5D77C0048CFAA /* RemindersScreenSetRemindersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersScreenSetRemindersTableViewCell.swift; sourceTree = "<group>"; };
+		09D42E031AF5D7900048CFAA /* RemindersScreenNextButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersScreenNextButtonTableViewCell.swift; sourceTree = "<group>"; };
+		09D4AF881B16AA480031A533 /* PastGoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastGoalsViewController.swift; sourceTree = "<group>"; };
+		09D4AF8A1B16AA620031A533 /* pastGoalsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pastGoalsTableViewCell.swift; sourceTree = "<group>"; };
+		09D4AF8C1B16B2590031A533 /* AcheivedGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcheivedGoalViewController.swift; sourceTree = "<group>"; };
+		09D4AF8E1B16B26D0031A533 /* AcheivedGoalCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcheivedGoalCollectionViewCell.swift; sourceTree = "<group>"; };
+		09D4AF901B16B3210031A533 /* AcheivedGoal2CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcheivedGoal2CollectionViewCell.swift; sourceTree = "<group>"; };
+		09D4AF921B16B32E0031A533 /* AcheivedGoal3CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcheivedGoal3CollectionViewCell.swift; sourceTree = "<group>"; };
+		09D4AF941B16B45B0031A533 /* AcheivedGoal4CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcheivedGoal4CollectionViewCell.swift; sourceTree = "<group>"; };
+		09D4AF961B16B46A0031A533 /* AcheivedGoal5CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcheivedGoal5CollectionViewCell.swift; sourceTree = "<group>"; };
+		09D4AF981B16B4780031A533 /* AcheivedGoal6CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcheivedGoal6CollectionViewCell.swift; sourceTree = "<group>"; };
+		09D4AF9A1B1BA0400031A533 /* YourNailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourNailViewController.swift; sourceTree = "<group>"; };
+		09D6C3B51B065CE000032F58 /* CalendarHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		09DFA8881B236518008EA60E /* UpcomingGoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingGoalsViewController.swift; sourceTree = "<group>"; };
+		09DFA88A1B237612008EA60E /* NoUpcomingGoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoUpcomingGoalsViewController.swift; sourceTree = "<group>"; };
+		09DFA88C1B237C58008EA60E /* YourGoalsNoActiveOrUpcomingGaolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourGoalsNoActiveOrUpcomingGaolViewController.swift; sourceTree = "<group>"; };
+		09DFA88E1B23D3A4008EA60E /* PastGaolsOverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastGaolsOverViewViewController.swift; sourceTree = "<group>"; };
+		09DFA8901B2487A6008EA60E /* PicturesCompareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesCompareViewController.swift; sourceTree = "<group>"; };
+		09DFA8921B2487C7008EA60E /* PicturesCompareCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesCompareCollectionViewCell.swift; sourceTree = "<group>"; };
+		E95BC32C1B24E49B002F5304 /* Your Progress Screen Set .storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Your Progress Screen Set .storyboard"; sourceTree = "<group>"; };
+		E97A978F1ACA0F9A00C9B0F8 /* Nail Goals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nail Goals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97A97931ACA0F9A00C9B0F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97A97941ACA0F9A00C9B0F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E97A97961ACA0F9A00C9B0F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E97A97991ACA0F9A00C9B0F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E97A979B1ACA0F9A00C9B0F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E97A97A41ACA0F9B00C9B0F8 /* Nail GoalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nail GoalsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97A97A91ACA0F9B00C9B0F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97A97AA1ACA0F9B00C9B0F8 /* Nail_GoalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nail_GoalsTests.swift; sourceTree = "<group>"; };
+		E9D83AC91B1544D8002C9264 /* Your Nail Goals - Post Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Your Nail Goals - Post Dashboard.storyboard"; sourceTree = "<group>"; };
+		E9E19CD91B0D743C0097AF21 /* Privacy Policy:Terms.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Privacy Policy:Terms.storyboard"; sourceTree = "<group>"; };
+		E9FF3C8A1B1E671700B28E29 /* Dashboards.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboards.storyboard; sourceTree = "<group>"; };
+		F9D8C1C11B0AB2EF006E91B1 /* Walkthrough Set First Goal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Walkthrough Set First Goal.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E97A978C1ACA0F9A00C9B0F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CB7B621AD9AA2F00A32601 /* MobileCoreServices.framework in Frameworks */,
+				09CB7B601AD9AA2800A32601 /* libsqlite3.dylib in Frameworks */,
+				09CB7B5E1AD9AA1B00A32601 /* SystemConfiguration.framework in Frameworks */,
+				09CB7B5A1AD9AA0700A32601 /* Security.framework in Frameworks */,
+				09CB7B581AD9A9FE00A32601 /* QuartzCore.framework in Frameworks */,
+				09CB7B561AD9A9F500A32601 /* libz.dylib in Frameworks */,
+				09CB7B541AD9A9EB00A32601 /* CoreLocation.framework in Frameworks */,
+				09CB7B521AD9A9E200A32601 /* CoreGraphics.framework in Frameworks */,
+				09CB7B501AD9A9D800A32601 /* CFNetwork.framework in Frameworks */,
+				09CB7B4E1AD9A9CB00A32601 /* AudioToolbox.framework in Frameworks */,
+				09CB7B471AD9A91000A32601 /* Parse.framework in Frameworks */,
+				09CB7B4A1AD9A92800A32601 /* FacebookSDK.framework in Frameworks */,
+				09CB7B461AD9A91000A32601 /* Bolts.framework in Frameworks */,
+				09CB7B481AD9A91000A32601 /* ParseFacebookUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97A97A11ACA0F9B00C9B0F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E97A97861ACA0F9A00C9B0F8 = {
+			isa = PBXGroup;
+			children = (
+				09CB7B611AD9AA2F00A32601 /* MobileCoreServices.framework */,
+				09CB7B5F1AD9AA2800A32601 /* libsqlite3.dylib */,
+				09CB7B5D1AD9AA1B00A32601 /* SystemConfiguration.framework */,
+				09CB7B591AD9AA0700A32601 /* Security.framework */,
+				09CB7B571AD9A9FE00A32601 /* QuartzCore.framework */,
+				09CB7B551AD9A9F500A32601 /* libz.dylib */,
+				09CB7B531AD9A9EB00A32601 /* CoreLocation.framework */,
+				09CB7B511AD9A9E200A32601 /* CoreGraphics.framework */,
+				09CB7B4F1AD9A9D800A32601 /* CFNetwork.framework */,
+				09CB7B4D1AD9A9CB00A32601 /* AudioToolbox.framework */,
+				09CB7B491AD9A92800A32601 /* FacebookSDK.framework */,
+				09CB7B431AD9A91000A32601 /* Bolts.framework */,
+				09CB7B441AD9A91000A32601 /* Parse.framework */,
+				09CB7B451AD9A91000A32601 /* ParseFacebookUtils.framework */,
+				E97A97911ACA0F9A00C9B0F8 /* Nail Goals */,
+				E97A97A71ACA0F9B00C9B0F8 /* Nail GoalsTests */,
+				E97A97901ACA0F9A00C9B0F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E97A97901ACA0F9A00C9B0F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E97A978F1ACA0F9A00C9B0F8 /* Nail Goals.app */,
+				E97A97A41ACA0F9B00C9B0F8 /* Nail GoalsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E97A97911ACA0F9A00C9B0F8 /* Nail Goals */ = {
+			isa = PBXGroup;
+			children = (
+				E97A97941ACA0F9A00C9B0F8 /* AppDelegate.swift */,
+				09CB7B681AD9AD4F00A32601 /* tourViewControllerHelper.swift */,
+				0999DD711AE2F9FA00B32391 /* SignUpViewController.swift */,
+				09CB7B641AD9AA8500A32601 /* bridging-header.m */,
+				E97A97961ACA0F9A00C9B0F8 /* ViewController.swift */,
+				0999DD731AE2FA9400B32391 /* loginViewController.swift */,
+				09C92D321B0D5FB600258CD2 /* SetyourGoalsScren1ViewController.swift */,
+				09C92D341B0D5FC000258CD2 /* SetyourGoalsScren2ViewController.swift */,
+				09C92D361B0D5FCB00258CD2 /* SetyourGoalsScren3ViewController.swift */,
+				097AA88C1B10F52E00D09BFF /* SetYourGoalsScreen4ViewController.swift */,
+				E97A97981ACA0F9A00C9B0F8 /* Main.storyboard */,
+				E9E19CD91B0D743C0097AF21 /* Privacy Policy:Terms.storyboard */,
+				E9FF3C8A1B1E671700B28E29 /* Dashboards.storyboard */,
+				E95BC32C1B24E49B002F5304 /* Your Progress Screen Set .storyboard */,
+				F9D8C1C11B0AB2EF006E91B1 /* Walkthrough Set First Goal.storyboard */,
+				E9D83AC91B1544D8002C9264 /* Your Nail Goals - Post Dashboard.storyboard */,
+				09DFA88A1B237612008EA60E /* NoUpcomingGoalsViewController.swift */,
+				09DFA8881B236518008EA60E /* UpcomingGoalsViewController.swift */,
+				09169BB31B214FC2000A8F43 /* BiteTrackerCollectionViewCell.swift */,
+				09169BB51B214FE0000A8F43 /* BiteTrackerViewController.swift */,
+				09169BAF1B214AE4000A8F43 /* PicturesOfYourProgressViewController.swift */,
+				09DFA8901B2487A6008EA60E /* PicturesCompareViewController.swift */,
+				09DFA8921B2487C7008EA60E /* PicturesCompareCollectionViewCell.swift */,
+				09169BB11B214C53000A8F43 /* PicturesCollectionViewCell.swift */,
+				09169BAD1B1FD46D000A8F43 /* MainDashboardViewController.swift */,
+				09DFA88C1B237C58008EA60E /* YourGoalsNoActiveOrUpcomingGaolViewController.swift */,
+				09D4AF9A1B1BA0400031A533 /* YourNailViewController.swift */,
+				09D4AF8C1B16B2590031A533 /* AcheivedGoalViewController.swift */,
+				09D4AF8E1B16B26D0031A533 /* AcheivedGoalCollectionViewCell.swift */,
+				09D4AF901B16B3210031A533 /* AcheivedGoal2CollectionViewCell.swift */,
+				09D4AF921B16B32E0031A533 /* AcheivedGoal3CollectionViewCell.swift */,
+				09D4AF941B16B45B0031A533 /* AcheivedGoal4CollectionViewCell.swift */,
+				09D4AF961B16B46A0031A533 /* AcheivedGoal5CollectionViewCell.swift */,
+				09D4AF981B16B4780031A533 /* AcheivedGoal6CollectionViewCell.swift */,
+				09DFA88E1B23D3A4008EA60E /* PastGaolsOverViewViewController.swift */,
+				09D4AF881B16AA480031A533 /* PastGoalsViewController.swift */,
+				09D4AF8A1B16AA620031A533 /* pastGoalsTableViewCell.swift */,
+				0994ACD61B07ECEC00703BA0 /* dashboardViewController.swift */,
+				09D6C3B51B065CE000032F58 /* CalendarHeaderCollectionReusableView.swift */,
+				09C92D3A1B0D633300258CD2 /* CalendarHeader1CollectionReusableView.swift */,
+				09C92D3C1B0D75AF00258CD2 /* CalendarHeader2CollectionReusableView.swift */,
+				0969CAC71B0375B800F64669 /* WalkthroughSetYourGoalsViewController.swift */,
+				0985B72F1B037B69008DE852 /* calendarHelper.swift */,
+				0969CACF1B037A3900F64669 /* calendarDateCollectionViewCell.swift */,
+				09C92D3E1B0D75DA00258CD2 /* calendarDateCollection2ViewCell.swift */,
+				09C92D381B0D624C00258CD2 /* calendarDateCollectionViewCell1CollectionViewCell.swift */,
+				096909C11AF80D4800B5814F /* WlakthroughRemindersViewController.swift */,
+				09D42DFF1AF5D75F0048CFAA /* RemindersScreenHeaderTableViewCell.swift */,
+				09D42E011AF5D77C0048CFAA /* RemindersScreenSetRemindersTableViewCell.swift */,
+				09D42E031AF5D7900048CFAA /* RemindersScreenNextButtonTableViewCell.swift */,
+				09D42DFD1AF5D65A0048CFAA /* setYourRemindersViewController.swift */,
+				09D42DFB1AF1C4B40048CFAA /* WelcomeWalkthroughViewController.swift */,
+				094159921AEC693E00075A16 /* forgotPasswordViewController.swift */,
+				09CB7B4B1AD9A96000A32601 /* faceBookViewController.swift */,
+				E97A979B1ACA0F9A00C9B0F8 /* Images.xcassets */,
+				E97A97921ACA0F9A00C9B0F8 /* Supporting Files */,
+				09CB7B631AD9AA8400A32601 /* Nail Goals-Bridging-Header.h */,
+			);
+			path = "Nail Goals";
+			sourceTree = "<group>";
+		};
+		E97A97921ACA0F9A00C9B0F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E97A97931ACA0F9A00C9B0F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E97A97A71ACA0F9B00C9B0F8 /* Nail GoalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E97A97AA1ACA0F9B00C9B0F8 /* Nail_GoalsTests.swift */,
+				E97A97A81ACA0F9B00C9B0F8 /* Supporting Files */,
+			);
+			path = "Nail GoalsTests";
+			sourceTree = "<group>";
+		};
+		E97A97A81ACA0F9B00C9B0F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E97A97A91ACA0F9B00C9B0F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E97A978E1ACA0F9A00C9B0F8 /* Nail Goals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97A97AE1ACA0F9B00C9B0F8 /* Build configuration list for PBXNativeTarget "Nail Goals" */;
+			buildPhases = (
+				E97A978B1ACA0F9A00C9B0F8 /* Sources */,
+				E97A978C1ACA0F9A00C9B0F8 /* Frameworks */,
+				E97A978D1ACA0F9A00C9B0F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nail Goals";
+			productName = "Nail Goals";
+			productReference = E97A978F1ACA0F9A00C9B0F8 /* Nail Goals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E97A97A31ACA0F9B00C9B0F8 /* Nail GoalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97A97B11ACA0F9B00C9B0F8 /* Build configuration list for PBXNativeTarget "Nail GoalsTests" */;
+			buildPhases = (
+				E97A97A01ACA0F9B00C9B0F8 /* Sources */,
+				E97A97A11ACA0F9B00C9B0F8 /* Frameworks */,
+				E97A97A21ACA0F9B00C9B0F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E97A97A61ACA0F9B00C9B0F8 /* PBXTargetDependency */,
+			);
+			name = "Nail GoalsTests";
+			productName = "Nail GoalsTests";
+			productReference = E97A97A41ACA0F9B00C9B0F8 /* Nail GoalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E97A97871ACA0F9A00C9B0F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Think Better Labs, Inc.";
+				TargetAttributes = {
+					E97A978E1ACA0F9A00C9B0F8 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = M7JN8BB5V6;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					E97A97A31ACA0F9B00C9B0F8 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E97A978E1ACA0F9A00C9B0F8;
+					};
+				};
+			};
+			buildConfigurationList = E97A978A1ACA0F9A00C9B0F8 /* Build configuration list for PBXProject "Nail Goals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E97A97861ACA0F9A00C9B0F8;
+			productRefGroup = E97A97901ACA0F9A00C9B0F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E97A978E1ACA0F9A00C9B0F8 /* Nail Goals */,
+				E97A97A31ACA0F9B00C9B0F8 /* Nail GoalsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E97A978D1ACA0F9A00C9B0F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D83ACA1B1544D8002C9264 /* Your Nail Goals - Post Dashboard.storyboard in Resources */,
+				E9FF3C8B1B1E671700B28E29 /* Dashboards.storyboard in Resources */,
+				E97A979A1ACA0F9A00C9B0F8 /* Main.storyboard in Resources */,
+				E95BC32D1B24E49B002F5304 /* Your Progress Screen Set .storyboard in Resources */,
+				E97A979C1ACA0F9A00C9B0F8 /* Images.xcassets in Resources */,
+				E9E19CDA1B0D743C0097AF21 /* Privacy Policy:Terms.storyboard in Resources */,
+				F9D8C1C21B0AB2EF006E91B1 /* Walkthrough Set First Goal.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97A97A21ACA0F9B00C9B0F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E97A978B1ACA0F9A00C9B0F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094159931AEC693E00075A16 /* forgotPasswordViewController.swift in Sources */,
+				09DFA88B1B237613008EA60E /* NoUpcomingGoalsViewController.swift in Sources */,
+				0999DD741AE2FA9400B32391 /* loginViewController.swift in Sources */,
+				09169BB21B214C53000A8F43 /* PicturesCollectionViewCell.swift in Sources */,
+				0994ACD71B07ECEC00703BA0 /* dashboardViewController.swift in Sources */,
+				09D42DFE1AF5D65A0048CFAA /* setYourRemindersViewController.swift in Sources */,
+				09169BB41B214FC2000A8F43 /* BiteTrackerCollectionViewCell.swift in Sources */,
+				09169BAE1B1FD46D000A8F43 /* MainDashboardViewController.swift in Sources */,
+				09C92D3D1B0D75AF00258CD2 /* CalendarHeader2CollectionReusableView.swift in Sources */,
+				09DFA8891B236518008EA60E /* UpcomingGoalsViewController.swift in Sources */,
+				0999DD721AE2F9FA00B32391 /* SignUpViewController.swift in Sources */,
+				09DFA8911B2487A6008EA60E /* PicturesCompareViewController.swift in Sources */,
+				09C92D371B0D5FCB00258CD2 /* SetyourGoalsScren3ViewController.swift in Sources */,
+				09DFA88F1B23D3A4008EA60E /* PastGaolsOverViewViewController.swift in Sources */,
+				09C92D331B0D5FB600258CD2 /* SetyourGoalsScren1ViewController.swift in Sources */,
+				09169BB61B214FE0000A8F43 /* BiteTrackerViewController.swift in Sources */,
+				09DFA88D1B237C58008EA60E /* YourGoalsNoActiveOrUpcomingGaolViewController.swift in Sources */,
+				09CB7B651AD9AA8500A32601 /* bridging-header.m in Sources */,
+				0985B7301B037B69008DE852 /* calendarHelper.swift in Sources */,
+				09D42DFC1AF1C4B40048CFAA /* WelcomeWalkthroughViewController.swift in Sources */,
+				09D42E021AF5D77C0048CFAA /* RemindersScreenSetRemindersTableViewCell.swift in Sources */,
+				09CB7B4C1AD9A96000A32601 /* faceBookViewController.swift in Sources */,
+				09C92D3B1B0D633300258CD2 /* CalendarHeader1CollectionReusableView.swift in Sources */,
+				09D4AF8B1B16AA620031A533 /* pastGoalsTableViewCell.swift in Sources */,
+				09D4AF971B16B46A0031A533 /* AcheivedGoal5CollectionViewCell.swift in Sources */,
+				E97A97971ACA0F9A00C9B0F8 /* ViewController.swift in Sources */,
+				09169BB01B214AE4000A8F43 /* PicturesOfYourProgressViewController.swift in Sources */,
+				09C92D3F1B0D75DA00258CD2 /* calendarDateCollection2ViewCell.swift in Sources */,
+				09D42E041AF5D7900048CFAA /* RemindersScreenNextButtonTableViewCell.swift in Sources */,
+				E97A97951ACA0F9A00C9B0F8 /* AppDelegate.swift in Sources */,
+				09D6C3B61B065CE000032F58 /* CalendarHeaderCollectionReusableView.swift in Sources */,
+				09DFA8931B2487C7008EA60E /* PicturesCompareCollectionViewCell.swift in Sources */,
+				09D4AF8D1B16B2590031A533 /* AcheivedGoalViewController.swift in Sources */,
+				09D4AF911B16B3210031A533 /* AcheivedGoal2CollectionViewCell.swift in Sources */,
+				09D42E001AF5D75F0048CFAA /* RemindersScreenHeaderTableViewCell.swift in Sources */,
+				09C92D351B0D5FC000258CD2 /* SetyourGoalsScren2ViewController.swift in Sources */,
+				09CB7B691AD9AD4F00A32601 /* tourViewControllerHelper.swift in Sources */,
+				09D4AF951B16B45B0031A533 /* AcheivedGoal4CollectionViewCell.swift in Sources */,
+				096909C21AF80D4800B5814F /* WlakthroughRemindersViewController.swift in Sources */,
+				0969CAD01B037A3900F64669 /* calendarDateCollectionViewCell.swift in Sources */,
+				097AA88D1B10F52E00D09BFF /* SetYourGoalsScreen4ViewController.swift in Sources */,
+				09D4AF8F1B16B26D0031A533 /* AcheivedGoalCollectionViewCell.swift in Sources */,
+				09D4AF931B16B32E0031A533 /* AcheivedGoal3CollectionViewCell.swift in Sources */,
+				09D4AF891B16AA480031A533 /* PastGoalsViewController.swift in Sources */,
+				09D4AF991B16B4780031A533 /* AcheivedGoal6CollectionViewCell.swift in Sources */,
+				09C92D391B0D624C00258CD2 /* calendarDateCollectionViewCell1CollectionViewCell.swift in Sources */,
+				09D4AF9B1B1BA0400031A533 /* YourNailViewController.swift in Sources */,
+				0969CAC81B0375B800F64669 /* WalkthroughSetYourGoalsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97A97A01ACA0F9B00C9B0F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97A97AB1ACA0F9B00C9B0F8 /* Nail_GoalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E97A97A61ACA0F9B00C9B0F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E97A978E1ACA0F9A00C9B0F8 /* Nail Goals */;
+			targetProxy = E97A97A51ACA0F9B00C9B0F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E97A97981ACA0F9A00C9B0F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97A97991ACA0F9A00C9B0F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E97A97AC1ACA0F9B00C9B0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E97A97AD1ACA0F9B00C9B0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E97A97AF1ACA0F9B00C9B0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Nail Goals/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nail Goals/Nail Goals-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E97A97B01ACA0F9B00C9B0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Nail Goals/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nail Goals/Nail Goals-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		E97A97B21ACA0F9B00C9B0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nail GoalsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nail Goals.app/Nail Goals";
+			};
+			name = Debug;
+		};
+		E97A97B31ACA0F9B00C9B0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nail GoalsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nail Goals.app/Nail Goals";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E97A978A1ACA0F9A00C9B0F8 /* Build configuration list for PBXProject "Nail Goals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97A97AC1ACA0F9B00C9B0F8 /* Debug */,
+				E97A97AD1ACA0F9B00C9B0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97A97AE1ACA0F9B00C9B0F8 /* Build configuration list for PBXNativeTarget "Nail Goals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97A97AF1ACA0F9B00C9B0F8 /* Debug */,
+				E97A97B01ACA0F9B00C9B0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97A97B11ACA0F9B00C9B0F8 /* Build configuration list for PBXNativeTarget "Nail GoalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97A97B21ACA0F9B00C9B0F8 /* Debug */,
+				E97A97B31ACA0F9B00C9B0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E97A97871ACA0F9A00C9B0F8 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F9CB0A31-2A5A-461F-B154-F78F66332D66</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Nail Goals</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>81C69233213E707C952908C6283DDA330AB3E18A</key>
+		<string>https://github.com/thinkbetterlabs/NailGoalsV1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Nail Goals.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>81C69233213E707C952908C6283DDA330AB3E18A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thinkbetterlabs/NailGoalsV1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>81C69233213E707C952908C6283DDA330AB3E18A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>81C69233213E707C952908C6283DDA330AB3E18A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NailGoalsV1!</string>
+		</dict>
+	</array>
+</dict>
+</plist>
